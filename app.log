@@ -1,0 +1,94 @@
+2025-04-29 03:07:06,370 - DEBUG - C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-04-29 03:08:33,459: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-04-29 03:11:26,808: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-04-29 03:11:36,051: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-04-29 03:16:38,280: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-02 02:12:02,059: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-02 02:21:13,833: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-02 02:24:01,535: WARNING: C:\Users\Kelvin\AppData\Local\Programs\Python\Python313\Lib\site-packages\slowapi\extension.py - __evaluate_limits - Line 510 - ratelimit 1 per 1 minute (127.0.0.1) exceeded at endpoint: /api/v1/users/
+2025-05-02 02:25:31,917: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-03 13:47:29,631: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-03 14:13:48,363: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-03 14:18:14,999: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-03 14:22:14,575: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-03 14:27:10,709: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-03 14:27:16,972: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-03 14:27:46,696: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-03 14:38:21,353: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-03 14:41:04,953: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-03 14:44:30,310: WARNING: C:\Users\Kelvin\AppData\Local\Programs\Python\Python313\Lib\site-packages\slowapi\extension.py - __evaluate_limits - Line 510 - ratelimit 1 per 1 minute (127.0.0.1) exceeded at endpoint: /api/v1/users/
+2025-05-03 14:48:11,606: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-03 14:49:41,885: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-03 14:49:57,138: WARNING: C:\Users\Kelvin\AppData\Local\Programs\Python\Python313\Lib\site-packages\slowapi\extension.py - __evaluate_limits - Line 510 - ratelimit 1 per 1 minute (127.0.0.1) exceeded at endpoint: /api/v1/users/
+2025-05-03 14:50:07,444: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-03 14:50:10,909: WARNING: C:\Users\Kelvin\AppData\Local\Programs\Python\Python313\Lib\site-packages\slowapi\extension.py - __evaluate_limits - Line 510 - ratelimit 1 per 1 minute (127.0.0.1) exceeded at endpoint: /api/v1/users/
+2025-05-03 14:50:11,669: WARNING: C:\Users\Kelvin\AppData\Local\Programs\Python\Python313\Lib\site-packages\slowapi\extension.py - __evaluate_limits - Line 510 - ratelimit 1 per 1 minute (127.0.0.1) exceeded at endpoint: /api/v1/users/
+2025-05-03 14:50:12,264: WARNING: C:\Users\Kelvin\AppData\Local\Programs\Python\Python313\Lib\site-packages\slowapi\extension.py - __evaluate_limits - Line 510 - ratelimit 1 per 1 minute (127.0.0.1) exceeded at endpoint: /api/v1/users/
+2025-05-03 14:50:35,185: WARNING: C:\Users\Kelvin\AppData\Local\Programs\Python\Python313\Lib\site-packages\slowapi\extension.py - __evaluate_limits - Line 510 - ratelimit 1 per 1 minute (127.0.0.1) exceeded at endpoint: /api/v1/users/
+2025-05-04 00:40:25,082: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 00:49:33,618: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:12:22,308: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:15:20,334: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:15:22,395: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:16:09,303: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:16:40,168: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:17:09,092: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:18:11,688: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:18:17,857: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:18:18,673: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:18:31,574: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:19:35,725: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:19:36,653: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:19:55,591: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:19:58,991: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:20:04,846: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:20:12,556: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:21:56,437: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:22:02,986: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:22:49,034: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:22:51,206: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:23:02,346: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:23:05,703: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:23:23,244: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:23:29,508: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 01:58:38,498: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 02:00:16,498: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 02:03:49,472: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 02:03:51,401: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 02:04:03,441: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 02:04:12,077: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 02:04:29,540: WARNING: C:\Users\Kelvin\AppData\Local\Programs\Python\Python313\Lib\site-packages\slowapi\extension.py - __evaluate_limits - Line 510 - ratelimit 10 per 1 minute (127.0.0.1) exceeded at endpoint: /api/v1/users/
+2025-05-04 02:04:29,974: WARNING: C:\Users\Kelvin\AppData\Local\Programs\Python\Python313\Lib\site-packages\slowapi\extension.py - __evaluate_limits - Line 510 - ratelimit 10 per 1 minute (127.0.0.1) exceeded at endpoint: /api/v1/users/
+2025-05-04 02:05:42,785: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 02:06:20,432: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 02:11:09,438: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 02:12:29,641: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 02:12:30,631: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 02:13:46,773: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 02:15:25,409: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 02:16:47,353: WARNING: C:\Users\Kelvin\AppData\Local\Programs\Python\Python313\Lib\site-packages\slowapi\extension.py - __evaluate_limits - Line 510 - ratelimit 1 per 1 minute (127.0.0.1) exceeded at endpoint: /api/v1/users/
+2025-05-04 02:16:52,324: WARNING: C:\Users\Kelvin\AppData\Local\Programs\Python\Python313\Lib\site-packages\slowapi\extension.py - __evaluate_limits - Line 510 - ratelimit 1 per 1 minute (127.0.0.1) exceeded at endpoint: /api/v1/users/
+2025-05-04 11:49:48,552: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 11:50:28,774: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 11:58:05,796: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 11:58:24,596: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 23:14:32,077: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 23:16:09,042: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 23:28:48,015: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-04 23:28:51,683: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-05 00:35:55,287: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-05 00:36:03,854: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-05 00:36:05,486: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-05 00:36:19,101: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-05 00:36:23,242: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-05 02:37:10,532: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-05 02:37:20,597: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-05 02:37:26,573: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-05 02:39:57,038: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-05 02:53:48,349: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-11 17:54:36,535: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-11 18:03:46,799: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-11 18:03:51,257: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-11 18:41:30,633: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-12 16:55:37,837: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
+2025-05-12 17:03:40,308: DEBUG: C:\Projects\fastapi-demo\app\core\logging.py - configure_logging - Line 31 - Logging configured at level: DEBUG
