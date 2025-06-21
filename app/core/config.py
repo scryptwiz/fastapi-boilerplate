@@ -1,38 +1,95 @@
-import os
 from enum import Enum
+from typing import Optional
 
-from pydantic import BaseSettings
-from starlette.config import Config
-
-current_file_dir = os.path.dirname(os.path.realpath(__file__))
-env_path = os.path.join(current_file_dir, "..", "..", '.env')
-config = Config(env_path)
-
-class AppSettings(BaseSettings):
-    APP_NAME: str = config("APP_NAME", default="FastAPI app")
-    APP_DESCRIPTION: str | None = config("APP_DESCRIPTION", default=None)
-    APP_VERSION: str = config("APP_VERSION", default="0.1.0")
-    
-class PostgresSettings(BaseSettings):
-    POSTGRES_HOST: str = config("POSTGRES_HOST", default="localhost")
-    POSTGRES_PORT: int = config("POSTGRES_PORT", default=5432)
-    POSTGRES_USER: str = config("POSTGRES_USER", default="postgres")
-    POSTGRES_PASSWORD: str = config("POSTGRES_PASSWORD", default="password")
-    POSTGRES_DB: str = config("POSTGRES_DB", default="fastapi_db")
-    POSTGRES_SYNC_PREFIX: str = config("POSTGRES_SYNC_PREFIX", default="postgresql://")
-    POSTGRES_ASYNC_PREFIX: str = config("POSTGRES_ASYNC_PREFIX", default="postgresql+asyncpg://")
-    POSTGRES_URI: str = config("POSTGRES_URI", default="f{POSTGRES_USER}:{POSTGRES_PASSWORD}@{POSTGRES_HOST}:{POSTGRES_PORT}/{POSTGRES_DB}")
-    POSTGRES_URL: str = config("POSTGRES_URL", default=None)
+from pydantic import Field, computed_field
+from pydantic_settings import BaseSettings
 
 class EnvironmentOption(Enum):
     LOCAL = "local"
     STAGING = "staging"
     PRODUCTION = "production"
+
+class LogLevel(Enum):
+    DEBUG = "debug"
+    INFO = "info"
+    WARNING = "warning"
+    ERROR = "error"
+
+class Settings(BaseSettings):
+    """Application settings loaded from environment variables and .env file"""
     
-class EnvironmentSettings(BaseSettings):
-    ENVIRONMENT: EnvironmentOption = config("ENVIRONMENT", default=EnvironmentOption.LOCAL)
+    # Application Settings - all from env
+    APP_NAME: str = Field(description="Application name")
+    APP_DESCRIPTION: Optional[str] = Field(description="Application description")
+    APP_VERSION: str = Field(description="Application version")
+    
+    # Environment
+    ENVIRONMENT: EnvironmentOption = Field(description="Environment type")
+    
+    # Database Settings - all from env
+    POSTGRES_HOST: str = Field(description="PostgreSQL host")
+    POSTGRES_PORT: int = Field(description="PostgreSQL port")
+    POSTGRES_USER: str = Field(description="PostgreSQL username")
+    POSTGRES_PASSWORD: str = Field(description="PostgreSQL password")
+    POSTGRES_DB: str = Field(description="PostgreSQL database name")
+    POSTGRES_URL: str = Field(description="Full PostgreSQL connection URL")
+    
+    # Redis Settings - all from env
+    REDIS_HOST: str = Field(description="Redis host")
+    REDIS_PORT: int = Field(description="Redis port")
+    
+    # Logging Settings - from env
+    LOG_LEVEL: LogLevel = Field(description="Logging level")
+    
+    # API Settings - from env
+    API_BASE_URL: str = Field(description="API base URL")
+    
+    # Security Settings - from env
+    SECRET_KEY: str = Field(description="Secret key for cryptographic operations")
+    
+    # Feature Flags - from env
+    FEATURE_X_ENABLED: bool = Field(description="Enable feature X")
+    
+    # Email Settings - from env
+    EMAIL_HOST: str = Field(description="Email SMTP host")
+    EMAIL_PORT: int = Field(description="Email SMTP port")
+    
+    @computed_field
+    @property
+    def database_url_sync(self) -> str:
+        """Synchronous database URL"""
+        return f"postgresql://{self.POSTGRES_USER}:{self.POSTGRES_PASSWORD}@{self.POSTGRES_HOST}:{self.POSTGRES_PORT}/{self.POSTGRES_DB}"
+    
+    @computed_field
+    @property
+    def database_url_async(self) -> str:
+        """Asynchronous database URL"""
+        return f"postgresql+asyncpg://{self.POSTGRES_USER}:{self.POSTGRES_PASSWORD}@{self.POSTGRES_HOST}:{self.POSTGRES_PORT}/{self.POSTGRES_DB}"
+    
+    @computed_field
+    @property
+    def redis_url(self) -> str:
+        """Redis connection URL"""
+        return f"redis://{self.REDIS_HOST}:{self.REDIS_PORT}"
+    
+    @computed_field
+    @property
+    def is_development(self) -> bool:
+        """Check if running in development environment"""
+        return self.ENVIRONMENT == EnvironmentOption.LOCAL
+    
+    @computed_field
+    @property
+    def is_production(self) -> bool:
+        """Check if running in production environment"""
+        return self.ENVIRONMENT == EnvironmentOption.PRODUCTION
 
-class Settings(AppSettings, PostgresSettings):
-    pass
+    class Config:
+        env_file = ".env"
+        env_file_encoding = "utf-8"
+        case_sensitive = True
+        # Tell Pydantic to read from environment variables
+        env_prefix = ""  # No prefix, use exact variable names
 
-Settings = Settings()
+# Create settings instance that will load from environment/env file
+settings = Settings()

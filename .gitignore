@@ -1,5 +1,12 @@
 *.log
 
+# Development/Debug utilities (should not be in production)
+show_settings.py
+test_env_config.py
+check_production.py
+debug_*.py
+*_debug.py
+
 # Python cache directories
 __pycache__/
 */__pycache__/
